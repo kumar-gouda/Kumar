@@ -1,3 +1,22 @@
 https://github.com/KayBee24/Kumar.git
 
 Hi there,
+
+commands
+
+cd /e/github/
+git config --global user.name "KayBee24"
+git config --global user.email kumarbgouda24@gmail.com
+git clone https://github.com/KayBee24/Kumar.git
+cd Kumar
+//create file Hello.txt on pc
+git add Hello.txt
+git status
+git commit -m "Comment Here" Hello.txt
+git push -u origin master
+
+//to modify file //after modifying on pc
+
+git status
+git commit -m "Comment Here" Hello.txt
+git push -u origin master
