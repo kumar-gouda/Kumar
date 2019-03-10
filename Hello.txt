@@ -18,5 +18,5 @@ git push -u origin master
 //to modify file //after modifying on pc
 
 git status
-git commit -m "Comment Here" Hello.txt
+git commit -m "second commit" Hello.txt
 git push -u origin master
