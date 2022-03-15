@@ -1,0 +1,50 @@
+//Add README.md to project
+//add blank space at file end
+
+# create github repository
+gh repo create my-repo --description "its my repo" --public --clone
+// --clone for copy to local
+
+# clone remote repository
+git clone https://github.com/kumar-gouda/repo.git
+
+# Initialize local directory as Git repository with main branch
+git init -b main
+
+# Stage and commit all the files in your project
+git add . && git commit -m "initial commit"
+
+# commit single file
+git commit -m "Comment Here" Hello.txt
+
+# add single file
+git add Hello.txt
+
+git remote add origin https://github.com/kumar-gouda/repo.git 
+# Sets the new remote
+
+git remote -v
+# Verifies the new remote URL
+
+git push -u origin main							 # normal push use -u for only first push
+git push -f origin main   						 # force push if rejected
+git pull origin main && git push origin main	 # pull and push
+
+#configure usename and email
+git config --global user.name "kumar-gouda"
+git config --global user.email kumarbgouda24@gmail.com
+
+# check commit status
+git status
+
+git push -u origin master
+
+# delete branch locally
+git branch -d localBranchName
+
+# delete branch remotely
+git push origin --delete remoteBranchName
+
+# update 'master' from remote
+git fetch
+
