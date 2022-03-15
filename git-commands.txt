@@ -1,4 +1,5 @@
 //add blank space at file end
+//add README.md
 //create repository on github.com
 
 #configure usename and email
