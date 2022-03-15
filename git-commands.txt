@@ -1,9 +1,5 @@
-//Add README.md to project
 //add blank space at file end
-
-# create github repository
-gh repo create my-repo --description "its my repo" --public --clone
-// --clone for copy to local
+//create repository on github.com
 
 # clone remote repository
 git clone https://github.com/kumar-gouda/repo.git
