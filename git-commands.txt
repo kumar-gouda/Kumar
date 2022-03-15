@@ -1,6 +1,7 @@
-//add blank space at file end
-//add README.md
-//create repository on github.com
+Note: //add blank space at file end
+      //create repository on github.com
+      //clone the repository and add existing files
+      //or use force push
 
 #configure usename and email
 git config --global user.name "kumar-gouda"
