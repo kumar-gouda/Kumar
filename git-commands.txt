@@ -1,6 +1,10 @@
 //add blank space at file end
 //create repository on github.com
 
+#configure usename and email
+git config --global user.name "kumar-gouda"
+git config --global user.email kumarbgouda24@gmail.com
+
 # clone remote repository
 git clone https://github.com/kumar-gouda/repo.git
 
@@ -26,14 +30,8 @@ git push -u origin main							 # normal push use -u for only first push
 git push -f origin main   						 # force push if rejected
 git pull origin main && git push origin main	 # pull and push
 
-#configure usename and email
-git config --global user.name "kumar-gouda"
-git config --global user.email kumarbgouda24@gmail.com
-
 # check commit status
 git status
-
-git push -u origin master
 
 # delete branch locally
 git branch -d localBranchName
